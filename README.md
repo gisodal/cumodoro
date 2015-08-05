@@ -4,7 +4,7 @@ Commandline interface to the *pomodoro* technique using ncursus.
 ![](/../screenshots/main.png?raw=true)
 
 ## Instructions
-To execute simply type "./run.py" in the program directory. Upon first launch a folder *.cumodoro* will be created in your home directory that will contain a SQLITE database for holding all settings and pomodoros. No tasks will exist, so before assigning any pomodoro to a task, these will have to be created in the **Settings** window.
+To execute simply type "./run.py" in the program directory. Upon first launch a folder *.cumodoro* will be created in your home directory that will contain a SQLITE database for holding all settings and pomodoros. No tasks will exist, so before assigning any pomodoro to a task, these will have to be created in the **Settings** window. Note that changing settings or pomodoros is only possible when the timer is not running.
 
 | Action        | Key | Alternative |
 | ------------- |:-------------:|:----------:|
@@ -26,7 +26,7 @@ The **Timer** window shows the pomodoro timer. Use the navigation keys to select
 ![](/../screenshots/timer2.png?raw=true)
 
 ### Weekview
-The **Weekview** window show all pomodoros of the current week. Use navigation keys to traverse other weeks. Tasks have a hierarchical structure. You can display pomodoro colors according the *level* in the hierarchy. Note that editting recorded pomodoros is only possible when the timer is not running.
+The **Weekview** window show all pomodoros of the current week. Use navigation keys to traverse other weeks. Tasks have a hierarchical structure. You can display pomodoro colors according the *level* in the hierarchy.
 
 ![](/../screenshots/weekview2.png?raw)
 ### Settings
