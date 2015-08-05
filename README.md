@@ -3,9 +3,8 @@ Commandline interface to the *pomodoro* technique using ncursus.
 
 ![](/../screenshots/main.png?raw=true)
 
-
-
 ## Instructions
+To execute the program simply type "./run.py". 
 
 | Action        | Key | Alternative |
 | ------------- |:-------------:|:----------:|
