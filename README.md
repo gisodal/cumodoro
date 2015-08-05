@@ -4,7 +4,7 @@ Commandline interface to the *pomodoro* technique using ncursus.
 ![](/../screenshots/main.png?raw=true)
 
 ## Instructions
-To execute the program simply type "./run.py". 
+To execute simply type "./run.py" in the program directory. Upon first launch a folder *.cumodoro* will be created in your home directory that will contain a SQLITE database for holding all settings and pomodoros. No tasks will exist, so before assigning any pomodoro to a task, these will have to be created in the **Settings** window.
 
 | Action        | Key | Alternative |
 | ------------- |:-------------:|:----------:|
@@ -19,10 +19,6 @@ To execute the program simply type "./run.py".
 |Settings | *s* | *S* |
 
 For other actions follow the instructions at the bottom of the screen.
-
-### First Launch
-Upon first launch a folder *.comodoro* will be created in your home directory that will contain an SQLITE database that will contain all settings and pomodoros.
-
 
 ### Timer
 The **Timer** window shows the pomodoro timer. Use the navigation keys to select the task you want to assign the pomodoro to. Upon completing a pomodoro, the screen will flash 3 times and an overtime clock will start at the bottom left of the main timer. Pressing [Enter] at this time will start a new pomodoro with current overtime deducted. The overtime clock will turn red once break time is over (default 5 min).
