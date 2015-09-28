@@ -1,6 +1,8 @@
 # Cumodoro
 Commandline interface to the *pomodoro* technique using ncursus.
 
+ <img style="max-width: 100%;" src="https://raw.githubusercontent.com/gisodal/cumodoro/screenshots/main.png" />
+
 ![](https://raw.githubusercontent.com/gisodal/cumodoro/screenshots/main.png)
 
 ## Instructions
