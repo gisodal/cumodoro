@@ -9,7 +9,7 @@ To execute simply type "./run.py" in the program directory. Upon first launch a 
 | Action        | Key | Alternative |
 | ------------- |:-------------:|:----------:|
 | Left | *h* | [leftarrow]|
-| Down | *j* | [downarrow] | 
+| Down | *j* | [downarrow] |
 | Up | *k* | [uparrow] |
 | Right | *l* | [rightarrow] |
 | Quit | *q*| |
@@ -36,4 +36,5 @@ The **Settings** window shows all settings and tasks. Tasks are ordered with a h
 
 ## Author
 
-Giso Dal (http://cs.ru.nl/~gdal)
+Giso H. Dal
+
