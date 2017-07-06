@@ -3,8 +3,14 @@ Commandline interface to the *pomodoro* technique using ncursus.
 
 <img style="max-width: 100%;" src="https://raw.githubusercontent.com/gisodal/cumodoro/screenshots/main.png" />
 
-## Instructions
-To execute simply type "./run.py" in the program directory. Upon first launch a folder *.cumodoro* will be created in your home directory that will contain a SQLITE database for holding all settings and pomodoros. No tasks will exist, so before assigning any pomodoro to a task, these will have to be created in the **Settings** window. Note that changing settings or pomodoros is only possible when the timer is not running.
+## Installation
+
+Cumodoro can be run from the root of its source directory by running `bin/cumodoro`, but requires installation to be run from anywhere:
+
+> python3 setup.py install
+
+## Usage
+Launch with command `cumodoro` after installation or from the root of the source directory with `bin/cumodoro`. Upon first launch, a folder *.cumodoro* will be created in your home directory that will contain a SQLITE database for holding all settings and pomodoros. No tasks will exist, so before assigning any pomodoro to a task, these will have to be created in the **Settings** window. Note that changing settings or pomodoros is only possible when the timer is not running. If you want to use cumodoro on multiple systems, simply share the database file among them.
 
 | Action        | Key | Alternative |
 | ------------- |:-------------:|:----------:|
