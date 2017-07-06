@@ -192,7 +192,7 @@ class Configeditor(Window):
             window.input_frame.handle_input()
             nvalue = window.input_frame.value
             if value != nvalue:
-                config.TIME_BREAK = nvalue
+                config.TIME_POMODORO = nvalue
                 globals.database.update_config("TIME_POMODORO",nvalue)
                 config.init()
         elif window.name == "break_time":

@@ -127,12 +127,12 @@ class Database():
                 self.cursor.execute("INSERT OR IGNORE INTO tasks (id,task,color,desc) VALUES (14,8,3,'Source')")
                 self.cursor.execute("INSERT OR IGNORE INTO tasks (id,task,color,desc) VALUES (40,31,202,'Model Counting')")
 
-                try:
-                    self.cursor.execute("INSERT OR IGNORE INTO config (variable,value) VALUES (?,?)",('TIME_SLOT',str(config.TIME_SLOT)))
-                    self.cursor.execute("INSERT OR IGNORE INTO config (variable,value) VALUES (?,?)",('TIME_SLOT_NAME',str(config.TIME_SLOT_NAME)))
-                    self.cursor.execute("INSERT OR IGNORE INTO config (variable,value) VALUES (?,?)",('TIME_POMODORO',str(config.TIME_POMODORO)))
-                    self.cursor.execute("INSERT OR IGNORE INTO config (variable,value) VALUES (?,?)",('TIME_BREAK',str(config.TIME_BREAK)))
-                except: pass
+            try:
+                self.cursor.execute("INSERT OR IGNORE INTO config (variable,value) VALUES (?,?)",('TIME_SLOT',str(config.TIME_SLOT)))
+                self.cursor.execute("INSERT OR IGNORE INTO config (variable,value) VALUES (?,?)",('TIME_SLOT_NAME',str(config.TIME_SLOT_NAME)))
+                self.cursor.execute("INSERT OR IGNORE INTO config (variable,value) VALUES (?,?)",('TIME_POMODORO',str(config.TIME_POMODORO)))
+                self.cursor.execute("INSERT OR IGNORE INTO config (variable,value) VALUES (?,?)",('TIME_BREAK',str(config.TIME_BREAK)))
+            except: pass
 
             self.db.commit()
         except sql.Error as e:

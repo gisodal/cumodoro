@@ -10,18 +10,18 @@ import types
 from cumodoro.timeconvert import *
 import cumodoro.config as config
 import cumodoro.globals as globals
-from cumodoro.component.timer import Timer
-from cumodoro.component.weekview import Weekview
-from cumodoro.component.taskswitcher import Taskswitcher
-from cumodoro.component.window import Window
-from cumodoro.component.message import Messageboard
-from cumodoro.component.clock import Clock
-from cumodoro.component.banner import Banner
-from cumodoro.component.overtime import Overtime
-from cumodoro.component.weekswitcher import Weekswitcher
-from cumodoro.component.weeklegend import Weeklegend
-from cumodoro.component.configeditor import Configeditor
-from cumodoro.component.frame import Frame
+from .component.timer import Timer
+from .component.weekview import Weekview
+from .component.taskswitcher import Taskswitcher
+from .component.window import Window
+from .component.message import Messageboard
+from .component.clock import Clock
+from .component.banner import Banner
+from .component.overtime import Overtime
+from .component.weekswitcher import Weekswitcher
+from .component.weeklegend import Weeklegend
+from .component.configeditor import Configeditor
+from .component.frame import Frame
 import threading
 import logging
 

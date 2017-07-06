@@ -38,7 +38,7 @@ def create_config():
 create_config()
 
 log = logging.getLogger('cumodoro')
-level = logging.WARNING
+level = logging.WARNING # logging.DEBUG
 log.setLevel(level)
 logfile = logging.FileHandler(LOGFILE)
 logfile.setLevel(level)
@@ -67,7 +67,6 @@ def init():
 
     for s in range(0,len(TIME_SLOT)):
         TIME_SLOT_SEC.append((time_to_sec(TIME_SLOT[s][0]),time_to_sec(TIME_SLOT[s][1])))
-
 
     if len(TIME_SLOT_SEC) == 0:
         SLOT_SIZE = [ 16 ]

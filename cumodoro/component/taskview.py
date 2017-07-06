@@ -24,8 +24,7 @@ class Taskview(Frame):
             q = deque([[1,None,x] for x in self.full_task_list[None]])
             while q:
                 level,parent,idx = q.popleft()
-                active = globals.database.tasks[idx].active:
-
+                active = globals.database.tasks[idx].active
                 q.extend([[level+1,idx,x] for x in globals.database.full_task_list[idx]])
 
     def right(self):
